@@ -1,0 +1,30 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caps.js",
+  "scripts": {
+    "start": "node caps.js",
+    "test": "jest --coverage --verbose",
+    "watch": "jest --verbose --coverage --watchAll ",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osama-401-advanced-javascript/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osama-401-advanced-javascript/caps/issues"
+  },
+  "homepage": "https://github.com/osama-401-advanced-javascript/caps#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
